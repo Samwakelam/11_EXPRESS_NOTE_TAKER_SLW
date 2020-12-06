@@ -47,6 +47,8 @@ The technologies I have used are:
 
 ## Usage
 
+You can Utilise the deployed application [here](https://express-note-taker-11-slw.herokuapp.com/notes). 
+
 * Step 1: Open the application in the browser window and navigate to the notes page. 
 
 ![Note Taker](public/assets/images/ss1.png)
@@ -105,7 +107,8 @@ There is nothing to display at this time.
 
 [![saythanks](https://img.shields.io/badge/say-thanks-ff69b4.svg)](https://saythanks.io/to/kennethreitz)
 Thanks go to:
-* Andy Lorenz - For spending the time to help me understand the backend api calls. * Colum Lynagh - For helping sort out the loose ends and functionality of the seperate files. He also helped with express().Router() nodemon and uuid. 
+* Andy Lorenz - For spending the time to help me understand the backend api calls. 
+* Colum Lynagh - For helping sort out the loose ends and functionality of the seperate files. He also helped with express().Router() nodemon and uuid. 
 
 Resources I have referenced:   
 * W3Schools<br />
