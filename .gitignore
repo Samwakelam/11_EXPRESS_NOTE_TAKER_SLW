@@ -2,6 +2,7 @@
 
 node_modules/
 
-#Hiding experimental files 
+#Hiding experimental files and folders 
 
+construction/
 db/script.js

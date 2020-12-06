@@ -1,4 +1,21 @@
 [
-    {"id":"01bee0fd-175b-4b21-b093-ac218ba5886b","title":"Shall i ?","text":"shal i add another "},
-    {"id":"658c9dde-35cd-49e4-879b-27e947de44a8","title":"Adding a note ","text":"changing title"}
+    {
+        "id":"54b5ee06-b470-4211-9ba3-4bed948b6dfe",
+        "title":"First Note",
+        "text":"This is the first note. "
+    },
+    {
+        "id":"3b90d804-e177-4824-ae35-78c880acd45b",
+        "title":"Second Note ","text":"This is the second Note "
+    },
+    {
+        "id":"ba3f69cf-9f44-4ccc-a96c-8426e3c143c2",
+        "title":"This is a note",
+        "text":"This is a noteThis is a noteThis is a noteThis is a noteThis is a noteThis is a noteThis is a note"
+    },
+    {
+        "id":"300e319c-d19f-41c7-87d9-0efb4ca296f3",
+        "title":"Another Note ",
+        "text":"This is a noteThis is a noteThis is a noteThis is a noteThis is a noteThis is a noteThis is a noteThis is a note"
+    }
 ]

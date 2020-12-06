@@ -42,10 +42,8 @@ const postNotes = async (notesToSave) => {
 // ------------------------------------------------------------------------
 let dbHolder = [];
 
-module.exports = function(router){
-
 	router
-		.get("/api/notes", function (req, res) {
+		.get("/notes", function (req, res) {
 			console.log(" ------ Get request ----------");
 			console.log("get request made");
 			console.log("req.body get =", req.body, typeof req.body);
@@ -63,7 +61,7 @@ module.exports = function(router){
 		});
 
 	router
-		.post("/api/notes", function (req, res) {
+		.post("/notes", function (req, res) {
 			console.log(" ------ Post request ----------");
 			console.log("req.body post = ", req.body);
 			const createNewObj = {
@@ -84,7 +82,7 @@ module.exports = function(router){
 	// you can find the added parameter in the req.params 
 	// ------------------------------------------------------------------------
 	router
-		.delete("/api/notes/:id", function (req, res) {
+		.delete("/notes/:id", function (req, res) {
 			console.log(" ------ Delete request ----------");
 			
 			console.log("req.params = ", req.params);
@@ -102,7 +100,5 @@ module.exports = function(router){
 			res.json(dbHolder);
 		});
 
-		
-};
 
-// module.exports = router;
+module.exports = router;
