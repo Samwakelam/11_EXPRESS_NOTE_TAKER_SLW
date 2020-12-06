@@ -1,3 +1,7 @@
 #Hiding Node files
 
-node_modules
+node_modules/
+
+#Hiding experimental files 
+
+db/script.js
